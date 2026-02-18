@@ -4,7 +4,7 @@ if periphemu then -- probably on CraftOS-PC
 end
 
 settings.load()
-local repo = settings.get("musicify.repo","https://raw.githubusercontent.com/knijn/musicify-songs/main/index.json")
+local repo = settings.get("musicify.repo","https://github.com/Highopes109/meowmoewminecraft-playlist-th/raw/refs/heads/main/index.json")
 local autoUpdates = settings.get("musicify.autoUpdates",true)
 local dfpwm = require("cc.audio.dfpwm")
 local indexURL = repo .. "?cb=" .. os.epoch("utc")

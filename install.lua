@@ -1,6 +1,6 @@
 -- data[1].assets[1].browser_download_url
 local apiURL = "http://api.github.com/repos/knijn/musicify/releases"
-local baseRepoURL = "https://raw.githubusercontent.com/knijn/musicify/main"
+local baseRepoURL = "https://raw.githubusercontent.com/Highopes109/musicifywahbwah/tree/main"
 local args = {...}
 local skipcheck = false
 if args and args[1] == "y" then
